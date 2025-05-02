@@ -1,0 +1,263 @@
+.profilescreen{
+height: fit-content;
+color: white;
+background-color: black;
+}
+.profilescreen_body{
+  padding: 100px 20px 30px 20px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: green; */
+}
+
+.profilescreen_info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: blue; */
+  width: 80%;
+  
+}
+.profilescreen_avatarinfo{
+ display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 10px;
+ 
+}
+.profilescreen_avatar > img {
+  height: 50px;
+  border-radius: 100%;
+}
+
+.profilescreen_info > body > h1 {
+ font-size: 60px;
+ font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+.profilescreen_cards > h2 {
+ font-size: 20px;
+ font-weight: 600;
+
+}
+.profilescreen_cards > h5{
+  font-weight: 300;
+  font-size: 15px;
+  }
+  .profilescreen_price{
+    font-weight: 600;
+    font-size: 15px;
+  }
+.profilescreen_details{
+  color: white;
+  margin-left: 25px;
+  
+}
+.profilescreen_name{
+  font-size: 15px;
+}
+
+
+.profilescreen_signout{
+  padding: 8px 20px;
+  font-size: 15px;
+  margin-top: 5%;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.profilescreen_subcribe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+   font-size: 15px;
+   margin-bottom: 20px;
+}
+.profilescreens{
+  padding: 20px 30px;
+}
+.profilescreen_cards_container{
+  display: grid;
+  gap: 20px;
+}
+.profilescreen_cards{
+  background: white;
+  color: black;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+.profilescreen_button{
+ padding: 10px 20px;
+  font-size: 15px;
+  margin-top: 5%;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.button_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+@media (min-width: 768px) {
+  .profilescreens{
+    padding: 20px 100px;
+
+  }
+  .profilescreen_cards_container{
+    display: grid;
+    gap: 50px;
+  }
+  .profilescreen_cards{
+    gap: 30px;
+  }
+
+  .profilescreen_subcribe{
+    font-size: 25px;
+    margin-bottom: 40px;
+ }
+ .profilescreen_avatar > img {
+  height: 70px;
+}
+.profilescreen_body{
+  padding: 150px 20px 50px 20px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: green; */
+}
+.profilescreen_name{
+  font-size: 25px;
+}
+.profilescreen_signout{
+  padding: 10px 25px;
+  font-size: 25px;
+}
+.profilescreen_button{
+  padding: 10px 25px;
+   font-size: 25px;
+ }
+ .profilescreen_cards > h2 {
+  font-size: 32px;
+ 
+ }
+ .profilescreen_cards > h5{
+  font-size: 25px;
+  }
+  .profilescreen_price{
+    font-size: 25px;
+  }
+
+}
+
+
+
+@media (min-width: 1024px) {
+    .profilescreen_cards_container{
+      display: grid;
+ grid-template-columns: 1fr 1fr ;
+ grid-template-rows: 1fr;
+  gap: 40px;
+  }
+  .profilescreens{
+    padding: 20px 100px;
+  }
+
+  .profilescreen_cards{
+    gap: 50px;
+  }
+  .profilescreen_subcribe{
+     font-size: 25px;
+     margin-bottom: 40px;
+  }
+  .profilescreen_avatar > img {
+    height: 80px;
+  }
+  .profilescreen_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: blue; */
+    width: 70%;
+    
+  }
+  .profilescreen_name{
+    font-size: 17px;
+  }
+  .profilescreen_signout{
+    padding: 10px 20px;
+    font-size: 17px;
+  }
+  .profilescreen_button{
+    padding: 10px 20px;
+     font-size: 15px;
+   }
+   .profilescreen_cards > h2 {
+    font-size: 25px;
+   
+   }
+   .profilescreen_cards > h5{
+    font-size: 20px;
+    }
+    .profilescreen_price{
+      font-size: 20px;
+    }
+}
+
+
+@media (min-width: 1280px) {
+  .profilescreen_cards_container{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+gap: 20px;
+}
+.profilescreen_avatar > img {
+  height: 100px;
+}
+.profilescreen_avatar > img {
+  height: 70px;
+}
+.profilescreen_name{
+  font-size: 20px;
+}
+.profilescreen_signout{
+  font-size: 20px;
+}
+.profilescreen_button{
+  padding: 10px 25px;
+   font-size: 20px;
+ }
+ .profilescreen_cards > h2 {
+  font-size: 26px;
+ 
+ }
+ .profilescreen_cards > h5{
+  font-size:18px;
+  }
+  .profilescreen_price{
+    font-size: 18px;
+  }
+}
